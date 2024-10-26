@@ -1,10 +1,9 @@
 - name: variables
   hosts:
-  tasks:
   - vars:
-    person: ramesh
-    wish: night
+      person: ramesh
+      wish: night
     tasks:
     - name: test varibles
       ansible.builtin.debug:
-      msg: "bye {{person}}, good {{wish}}"
+       msg: "bye {{person}}, good {{wish}}"
