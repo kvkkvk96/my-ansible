@@ -19,4 +19,4 @@
        person: mamatha
        wish: morning
       ansible.builtin.debug:
-       msg: "bye {{person}}, good {{wish}}"
+       msg: "Hi {{person}}, good {{wish}}"
