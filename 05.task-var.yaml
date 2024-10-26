@@ -9,12 +9,14 @@
        msg: "bye {{person}}, good {{wish}}"
     
     - name: print info
-      person: ganesh
+      vars:
+       person: ganesh
       ansible.builtin.debug:
        msg: "bye {{person}}, good {{wish}}"
 
     - name: print info again
-      person: mamatha
-      wish: morning
+      vars:
+       person: mamatha
+       wish: morning
       ansible.builtin.debug:
        msg: "bye {{person}}, good {{wish}}"
