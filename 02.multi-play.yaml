@@ -3,7 +3,7 @@
   tasks:
   - name: task1
     ansible.builtin.debug:
-     msg: "this is vinod from task1
+     msg: "this is vinod from task1"
 
 - name: playbook2
   hosts: web
