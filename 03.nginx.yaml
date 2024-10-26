@@ -5,6 +5,7 @@
     ansible.builtin.package:
       name: nginx
       state: present
+      become: yes
 
 
   - name: run nginx
